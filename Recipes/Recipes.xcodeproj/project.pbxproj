@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0188C70B0ACAF4FB00C57B9E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0188C6F70ACAF4FB00C57B9E /* ApplicationServices.framework */; };
+		01C7DC0D0AAE493A0016ABF2 /* MenuLayoutManagers.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C7DC0C0AAE493A0016ABF2 /* MenuLayoutManagers.m */; };
+		3C2DD2810B8288F500D9E808 /* creme.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3C2DD2800B8288F500D9E808 /* creme.mov */; };
+		5715B9870A390A8200CACFFB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715B9860A390A8200CACFFB /* OpenGL.framework */; };
+		57B09C500A0162E8001BFCFD /* TextLayerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B09C4F0A0162E8001BFCFD /* TextLayerAdditions.m */; };
+		57B5B60308B6888A00DFDA6A /* MenuBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B5B5FE08B6888A00DFDA6A /* MenuBox.m */; };
+		57B5B60408B6888A00DFDA6A /* MenuPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B5B60008B6888A00DFDA6A /* MenuPage.m */; };
+		57B5B60508B6888A00DFDA6A /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B5B60208B6888A00DFDA6A /* MenuView.m */; };
+		57B5B60808B688AF00DFDA6A /* RecipesMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = 57B5B60608B688AF00DFDA6A /* RecipesMain.nib */; };
+		57B5B60B08B688D000DFDA6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57593BD608B684E20097603D /* Foundation.framework */; };
+		57B5B60C08B688D000DFDA6A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57593BD508B684E20097603D /* AppKit.framework */; };
+		57B5B60D08B688D700DFDA6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57593B8408B6846D0097603D /* main.m */; };
+		57D62BEC09F70FC2009507C8 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D62BEB09F70FC2009507C8 /* Quartz.framework */; };
+		CAAD43B60A86A5D300F461AE /* Strawberries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAAD43B50A86A5D300F461AE /* Strawberries.jpg */; };
+		CAAD43C20A86E91C00F461AE /* CremeBruleeSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CAAD43C10A86E91C00F461AE /* CremeBruleeSmall.tiff */; };
+		CAB024330A7C781100F50390 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB024310A7C781100F50390 /* QTKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0188C6F70ACAF4FB00C57B9E /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		01C7DC0B0AAE493A0016ABF2 /* MenuLayoutManagers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayoutManagers.h; sourceTree = "<group>"; };
+		01C7DC0C0AAE493A0016ABF2 /* MenuLayoutManagers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLayoutManagers.m; sourceTree = "<group>"; };
+		3C2DD2800B8288F500D9E808 /* creme.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = creme.mov; sourceTree = "<group>"; };
+		5715B9860A390A8200CACFFB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		57593B8408B6846D0097603D /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57593BD508B684E20097603D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		57593BD608B684E20097603D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		57B09C4E0A0162E8001BFCFD /* TextLayerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TextLayerAdditions.h; sourceTree = "<group>"; };
+		57B09C4F0A0162E8001BFCFD /* TextLayerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TextLayerAdditions.m; sourceTree = "<group>"; };
+		57B5B5FA08B6887000DFDA6A /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B5B5FC08B6887000DFDA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B5B5FD08B6888A00DFDA6A /* MenuBox.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MenuBox.h; sourceTree = "<group>"; };
+		57B5B5FE08B6888A00DFDA6A /* MenuBox.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MenuBox.m; sourceTree = "<group>"; };
+		57B5B5FF08B6888A00DFDA6A /* MenuPage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MenuPage.h; sourceTree = "<group>"; };
+		57B5B60008B6888A00DFDA6A /* MenuPage.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MenuPage.m; sourceTree = "<group>"; };
+		57B5B60108B6888A00DFDA6A /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		57B5B60208B6888A00DFDA6A /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		57B5B60708B688AF00DFDA6A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/RecipesMain.nib; sourceTree = "<group>"; };
+		57D62BEB09F70FC2009507C8 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		CAAD43B50A86A5D300F461AE /* Strawberries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Strawberries.jpg; sourceTree = SOURCE_ROOT; };
+		CAAD43C10A86E91C00F461AE /* CremeBruleeSmall.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = CremeBruleeSmall.tiff; sourceTree = SOURCE_ROOT; };
+		CAB024310A7C781100F50390 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B5B5F808B6887000DFDA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B5B60B08B688D000DFDA6A /* Foundation.framework in Frameworks */,
+				57B5B60C08B688D000DFDA6A /* AppKit.framework in Frameworks */,
+				57D62BEC09F70FC2009507C8 /* Quartz.framework in Frameworks */,
+				5715B9870A390A8200CACFFB /* OpenGL.framework in Frameworks */,
+				CAB024330A7C781100F50390 /* QTKit.framework in Frameworks */,
+				0188C70B0ACAF4FB00C57B9E /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57593B7008B6842B0097603D = {
+			isa = PBXGroup;
+			children = (
+				57593B8208B684470097603D /* Classes */,
+				57593B8308B6844E0097603D /* Other Sources */,
+				57593B7E08B6843D0097603D /* Products */,
+				57593C3708B684F50097603D /* Resources */,
+				57593BB908B684C00097603D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57593B7E08B6843D0097603D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B5B5FA08B6887000DFDA6A /* Recipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57593B8208B684470097603D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57B09C4E0A0162E8001BFCFD /* TextLayerAdditions.h */,
+				57B09C4F0A0162E8001BFCFD /* TextLayerAdditions.m */,
+				57B5B5FD08B6888A00DFDA6A /* MenuBox.h */,
+				57B5B5FE08B6888A00DFDA6A /* MenuBox.m */,
+				57B5B5FF08B6888A00DFDA6A /* MenuPage.h */,
+				57B5B60008B6888A00DFDA6A /* MenuPage.m */,
+				57B5B60108B6888A00DFDA6A /* MenuView.h */,
+				57B5B60208B6888A00DFDA6A /* MenuView.m */,
+				01C7DC0B0AAE493A0016ABF2 /* MenuLayoutManagers.h */,
+				01C7DC0C0AAE493A0016ABF2 /* MenuLayoutManagers.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		57593B8308B6844E0097603D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				57593B8408B6846D0097603D /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		57593BB908B684C00097603D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0188C6F70ACAF4FB00C57B9E /* ApplicationServices.framework */,
+				CAB024310A7C781100F50390 /* QTKit.framework */,
+				5715B9860A390A8200CACFFB /* OpenGL.framework */,
+				57D62BEB09F70FC2009507C8 /* Quartz.framework */,
+				57593BD508B684E20097603D /* AppKit.framework */,
+				57593BD608B684E20097603D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57593C3708B684F50097603D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C2DD2800B8288F500D9E808 /* creme.mov */,
+				CAAD43C10A86E91C00F461AE /* CremeBruleeSmall.tiff */,
+				CAAD43B50A86A5D300F461AE /* Strawberries.jpg */,
+				57B5B60608B688AF00DFDA6A /* RecipesMain.nib */,
+				57B5B5FC08B6887000DFDA6A /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B5B5F908B6887000DFDA6A /* Recipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57ADEC9F08CFB7ED00E83786 /* Build configuration list for PBXNativeTarget "Recipes" */;
+			buildPhases = (
+				57B5B5F608B6887000DFDA6A /* Resources */,
+				57B5B5F708B6887000DFDA6A /* Sources */,
+				57B5B5F808B6887000DFDA6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recipes;
+			productName = Ovit;
+			productReference = 57B5B5FA08B6887000DFDA6A /* Recipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57593B7408B6842B0097603D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 57ADECA308CFB7ED00E83786 /* Build configuration list for PBXProject "Recipes" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 57593B7008B6842B0097603D;
+			productRefGroup = 57593B7E08B6843D0097603D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
+			targets = (
+				57B5B5F908B6887000DFDA6A /* Recipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B5B5F608B6887000DFDA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B5B60808B688AF00DFDA6A /* RecipesMain.nib in Resources */,
+				CAAD43B60A86A5D300F461AE /* Strawberries.jpg in Resources */,
+				CAAD43C20A86E91C00F461AE /* CremeBruleeSmall.tiff in Resources */,
+				3C2DD2810B8288F500D9E808 /* creme.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B5B5F708B6887000DFDA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B5B60308B6888A00DFDA6A /* MenuBox.m in Sources */,
+				57B5B60408B6888A00DFDA6A /* MenuPage.m in Sources */,
+				57B5B60508B6888A00DFDA6A /* MenuView.m in Sources */,
+				57B5B60D08B688D700DFDA6A /* main.m in Sources */,
+				57B09C500A0162E8001BFCFD /* TextLayerAdditions.m in Sources */,
+				01C7DC0D0AAE493A0016ABF2 /* MenuLayoutManagers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57B5B60608B688AF00DFDA6A /* RecipesMain.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B5B60708B688AF00DFDA6A /* English */,
+			);
+			name = RecipesMain.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57ADECA008CFB7ED00E83786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /System/Library/PrivateFrameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications/LayerKit;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Recipes;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		57ADECA108CFB7ED00E83786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Recipes;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		57ADECA408CFB7ED00E83786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		57ADECA508CFB7ED00E83786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57ADEC9F08CFB7ED00E83786 /* Build configuration list for PBXNativeTarget "Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57ADECA008CFB7ED00E83786 /* Debug */,
+				57ADECA108CFB7ED00E83786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57ADECA308CFB7ED00E83786 /* Build configuration list for PBXProject "Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57ADECA408CFB7ED00E83786 /* Debug */,
+				57ADECA508CFB7ED00E83786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57593B7408B6842B0097603D /* Project object */;
+}

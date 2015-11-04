@@ -1,0 +1,10 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LKCIOpenGLView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {CLASS = LKLayerOpenGLView; LANGUAGE = ObjC; SUPERCLASS = LKCIOpenGLView; }, 
+        {CLASS = MenuView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}
